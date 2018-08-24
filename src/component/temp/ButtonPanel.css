@@ -1,0 +1,21 @@
+.component-button-panel {
+  background-color: #858694;
+
+  display: flex;
+  flex: 1 0 auto;
+  
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.component-button-panel > div {
+  display: flex;
+  flex: 1 0 auto;
+  
+  width: 100%;
+  margin-bottom: 1px;
+}
+
+/*
+[class > element] Selects all <div> elements where the parent is .component-display class
+*/

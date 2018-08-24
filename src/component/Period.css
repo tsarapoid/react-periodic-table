@@ -1,0 +1,24 @@
+.period-button {
+  display: inline-flex;
+  width: 2.8%;
+  flex: 1 0 auto;
+  text-align: center;
+}
+
+.period-button.wide {
+  width: 2%;
+}
+
+.period-button.orange div {
+  background-color: #f5923e;
+  color: white;
+}
+
+.period-button div {
+  background-color: #FFFFFF;
+  border: 0;
+  font-size: 1rem;
+  margin: 0 1px 0 0;
+  flex: 1 0 auto;
+  padding: 0;
+}

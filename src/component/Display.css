@@ -1,0 +1,70 @@
+.display {
+  display: inline-flex;
+  align-items: center;
+//justify-content: center;
+  flex-direction: row;
+}
+
+.component-display {
+  display: inline-flex;
+  width: 54%;
+  flex: 1 0 auto;
+}
+
+.component-display div {
+  background-color: #FFFFFF;
+  border: 0;
+  font-size: 1rem;
+  margin: 0 1px 0 0;
+  flex: 1 0 auto;
+  padding: 0;
+}
+
+.component-display.wide {
+  width: 100%;
+}
+
+.component-display.orange div {
+  background-color: #f5923e;
+  color: white;
+}
+
+/*
+[class > element] Selects all <div> elements where the parent is .component-display class
+*/
+
+.number {
+  font-size: 0.8em;
+}
+
+.symbol {
+  font-size: 1.0em;
+}
+
+.name {
+  font-size: 0.5em;
+}
+
+.weight {
+  font-size: 0.5em;
+}
+
+.message {
+  font-size: 2.0em;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.table {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #858694;
+  width: 100%;
+}

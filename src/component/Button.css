@@ -1,0 +1,71 @@
+.component {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.component-button {
+  display: inline-flex;
+  width: 5.4%;
+  flex: 1 0 auto;
+  text-align: center;
+}
+
+.component-button.wide {
+  width: 11%;
+}
+
+.component-button.white div {
+  background-color: white;
+  color: black;
+}
+
+.component-button.orange div {
+  background-color: orange;
+  color: black;
+}
+
+.component-button.yellow div {
+  background-color: yellow;
+  color: black;
+}
+
+.component-button.pink div {
+  background-color: lightcoral;
+  color: black;
+}
+
+.component-button.cyan div {
+  background-color: cyan;
+  color: black;
+}
+
+.component-button.green div {
+  background-color: lime;
+  color: black;
+}
+
+.component-button.blue div {
+  background-color: cornflowerblue;
+  color: black;
+}
+
+.component-button.magenta div {
+  background-color: mediumorchid;
+  color: black;
+}
+
+.component-button.gray div {
+  background-color: gainsboro;
+  color: black;
+}
+
+.component-button div {
+  background-color: white;
+  border: 0;
+  font-size: 1rem;
+  margin: 0 1px 0 0;
+  flex: 1 0 auto;
+  padding: 0;
+}

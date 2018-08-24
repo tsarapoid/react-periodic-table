@@ -1,0 +1,37 @@
+{
+  "name": "react-periodic-table",
+  "author": "tsarapoid",
+  "version": "0.1.0",
+  "description": "react-based interactive periodic table",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://tsarapoid.github.io/react-periodic-table",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsarapoid/react-periodic-table.git"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "gh-pages": "^1.2.0",
+    "prettier": "1.14.2",
+    "react-scripts": "^1.1.5"
+  },
+  "dependencies": {
+    "ajv": "^6.5.3",
+    "big.js": "^5.1.2",
+    "github-fork-ribbon-css": "^0.2.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build"
+  },
+  "prettier": {
+    "trailingComma": "all"
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "short_name": "Calculator",
-  "name": "React Calculator Example App",
+  "short_name": "Periodic Table",
+  "name": "React Periodic Table",
   "icons": [
     {
       "src": "favicon.ico",

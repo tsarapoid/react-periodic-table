@@ -15,26 +15,32 @@ body {
   height: 100%;
 }
 
-@media (min-width: 400px) and (min-height: 300px) {
+@media (min-width: 400px) and (min-height: 200px) {
   html {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 
-@media (min-width: 500px) and (min-height: 400px) {
+@media (min-width: 500px) and (min-height: 300px) {
   html {
     font-size: 20px;
   }
 }
 
-@media (min-width: 600px) and (min-height: 600px) {
+@media (min-width: 600px) and (min-height: 400px) {
   html {
     font-size: 25px;
   }
 }
 
-@media (min-width: 1000px) and (min-height: 800px) {
+@media (min-width: 1000px) and (min-height: 500px) {
   html {
-    font-size: 55px;
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 600px) {
+  html {
+    font-size: 50px;
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "react-periodic-table",
   "author": "tsarapoid",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "react-based interactive periodic table",
   "main": "index.js",
   "license": "MIT",

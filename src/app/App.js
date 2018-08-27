@@ -1,7 +1,7 @@
 import React from "react";
 import ButtonPanel from "./ButtonPanel";
 
-import "./App.css"
+import "../css/App.css"
 
 class App extends React.Component {
   constructor(props) {

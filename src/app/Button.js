@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import "./Button.css";
+import "../css/Button.css";
 
 class Button extends React.Component {
-  hoverOn = () => {
+  hoverOn = (event) => {
     this.props.hoverElement(this.props.id, this.props.name);
   };
 
@@ -20,6 +20,7 @@ class Button extends React.Component {
       this.props.blue ? "blue" : "",
       this.props.magenta ? "magenta" : "",
       this.props.gray ? "gray" : "",
+      this.props.narrow ? "narrow" : "",
       this.props.wide ? "wide" : "",
     ];
 

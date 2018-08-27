@@ -5,7 +5,7 @@ import Display from "./Display";
 import Period from "./Period";
 import Button from "./Button";
 
-import "./ButtonPanel.css";
+import "../css/ButtonPanel.css";
 
 
 class ButtonPanel extends React.Component {

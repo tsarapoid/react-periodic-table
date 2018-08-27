@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import "./Period.css";
+import "../css/Period.css";
 
 class Period extends React.Component {
   funcButtonPressed = () => {

@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import "../css/Period.css";
 
 class Period extends React.Component {
+
   funcButtonPressed = () => {
     //this.props.hCl(this.props.name);
     this.props.hCl(this.props.id);
@@ -19,7 +20,7 @@ class Period extends React.Component {
     return (
       <div className={className.join(" ").trim()}>
         <div className="component">
-          {this.props.name}
+          {this.props.symbol}
         </div>
       </div>
     );

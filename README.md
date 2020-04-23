@@ -6,19 +6,16 @@ React Periodic Table
 Created with *create-react-app*. See the [full create-react-app guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 
-Try It
+Demo
 ---
 [tsarapoid.github.io/react-periodic-table](https://tsarapoid.github.io/react-periodic-table/)
 
 
 Install
 ---
-
 `npm install`
-
 
 
 Usage
 ---
-
 `npm start`

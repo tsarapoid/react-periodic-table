@@ -4,8 +4,18 @@ import PropTypes from "prop-types";
 import "../css/Button.css";
 
 class Button extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.hoverOn = this.hoverOn.bind(this);
+  }
+
   hoverOn = (event) => {
-    this.props.hoverElement(this.props.id, this.props.name);
+    this.props.hoverElement(
+      this.props.id,
+      this.props.symbol,
+      this.props.name,
+    );
   };
 
   render() {
@@ -27,7 +37,7 @@ class Button extends React.Component {
     return (
       <div className={className.join(" ").trim()}>
         <div className="component" onMouseOver={this.hoverOn}>
-          {this.props.name}
+          {this.props.symbol}
         </div>
       </div>
     );

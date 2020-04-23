@@ -12,7 +12,7 @@ class Display extends React.Component {
           {" "}
           {this.props.element}
           {" "}
-          {this.props.division}
+          {this.props.name}
         </div>
       </div>
     );

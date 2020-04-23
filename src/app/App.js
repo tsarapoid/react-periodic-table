@@ -4,18 +4,22 @@ import ButtonPanel from "./ButtonPanel";
 import "../css/App.css"
 
 class App extends React.Component {
+
   constructor(props) {
     super(props);
+    this.elementChooser = this.elementChooser.bind(this);
     this.state = {
       number: null,
       element: null,
+      name: null,
     };
   }
 
-  elementChooser = (number, element) => {
+  elementChooser(number,element,name) {
     this.setState({
       number: number,
       element: element,
+      name: name,
     });
   };
 
@@ -26,6 +30,7 @@ class App extends React.Component {
       <ButtonPanel
         number={this.state.number || ""}
         element={this.state.element || ""}
+        name={this.state.name || ""}
         handElement={this.elementChooser}
       />
       </div>
